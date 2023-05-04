@@ -33,7 +33,7 @@ public class InfoService {
     	
     	InfoModel infoModel = mapper.map(info, InfoModel.class);
     	
-    	System.out.println("---Method Calling---");
+    	System.out.println("---Method Calling Server---");
     	
     	return infoModel;
     }
